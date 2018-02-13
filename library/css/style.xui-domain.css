@@ -1,0 +1,140 @@
+.carosel {
+	width:100%;
+	height:45%;
+	overflow-x:auto;
+	border-bottom:1px solid #2eccfa;
+}
+.owndom {
+	height:40px;
+	width:220px;
+	margin-top:5px;
+	margin-left:5px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border:1px solid #2eccfa;
+	text-align:center;
+	color:#2eccfa;
+	font-size:21px;
+	padding-top:10px;
+}
+.domlist {
+	width:100%;
+	height:240px;
+	margin-top:-3px;
+	overflow:auto;
+}
+.domlist tr:first-child{
+	width:100%;
+	height:30px;
+}
+.domlist tr:first-child th{
+	background:#2eccfa;
+	color:#f2f2f2;
+}
+.domlist tr {
+	height:40px;
+	border-bottom:1px solid #000;
+}
+.domlist tr a {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:18px;
+}
+.domlist tr:hover {
+	background:#ddd;
+}
+.domlist tr td {
+	text-align:center;
+}
+.newdom {
+	display:block;
+	height:40px;
+	width:95%;
+	background:#2eccfa;
+	padding-top:5px;
+	color:#f2f2f2;
+	padding-left:5%;
+}
+.newdom p {
+	position: relative;
+	top: 10%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.para-dom {
+	margin-left:15px;
+}
+.ndom {
+	margin-left:30px;
+	width:auto;
+}
+.ndom span {
+	float:left;
+	display:inline-block;
+	width:50px;
+	text-align:center;
+	height:20px;
+	padding-top:10px;
+}
+.ndom input[type="text"] {
+	display:inline-block;
+	width:300px;
+	height:40px;
+	border:1px solid #2eccfa;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	padding-left:15px;
+	float:left;
+	font-size:18px;
+	color:#2eccfa;
+	text-decoration:none;
+	font-family:Existence;
+}
+.ndom input[type="text"]:focus, .ndom .subdom {
+	outline:none;
+	border:1px solid #4f0;
+	color:#44ff00;
+}
+.ndom .subdom {
+	display:inline-block;
+	width:300px;
+	height:40px;
+	border:1px solid #2eccfa;
+	border-left:transparent;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	padding-left:15px;
+	float:left;
+	font-size:18px;
+	color:#2eccfa;
+	text-decoration:none;
+	font-family:Existence;
+}
+.ndom .sub {
+	display:inline-block;
+	height:40px;
+	width:60px;
+	font-size:21px;
+	border:none;
+	color:#fff;
+	background:#2eccfa;
+	float:left;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	margin-left:-5px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+}
+.ndom .sub:hover {
+	background:#4f0;
+	cursor:pointer;
+}
+.ndom .sub:focus {
+	outline:none;
+}

@@ -1,0 +1,132 @@
+.chatbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+}
+
+.chatboxhead {
+	background-color: #2eccfa;
+	padding:7px;
+	color: #ffffff;
+	font-family:Existence;
+	font-size:14px;
+	border-right:1px solid #2eccfa;
+	border-left:1px solid #2eccfa;
+}
+
+.chatboxblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:44px;
+	padding:3px 3px 3px 3px;
+	border: 1px solid #eeeeee;
+	border-radius:5px;
+	margin: 1px;
+	overflow:hidden;
+	resize:none;
+}
+
+.chatboxtextareaselected {
+	outline:none;
+	border: 1px solid #2eccfa;
+}
+
+.chatboxmessage {
+	margin-left:1em;
+}
+
+.chatboxinfo {
+	color:#666666;
+
+}
+
+.chatboxmessagefrom {
+	font-weight: bold;
+	display:none;
+}
+
+.chatboxmessagecontent {
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+	float: left;
+}
+.message-text {
+	width:100%;
+	display:block;
+	padding:0px 10 10 0px;
+	min-height:45px;
+	height:auto;
+	font-family:Existence;
+}
+.chatbox-by {
+	display:block;
+	width:70%;
+	height:auto;
+	min-height:10px;
+	float:left;
+	text-align:left;
+	padding:15px 15px 15px 15px;
+	background:#2eccfa;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	color:#f2f2f2;
+	margin-top:5px;
+}
+.chatbox-to {
+	display:block;
+	width:70%;
+	padding:15px 15px 15px 15px;
+	height:auto;
+	min-height:10px;
+	float:right;
+	text-align:left;
+	border:1px solid #2eccfa;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;
+	color:#2eccfa;
+	margin-top:5px;
+}
